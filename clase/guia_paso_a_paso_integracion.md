@@ -1,4 +1,4 @@
-# 🧭 Guía Paso a Paso: Integración de Vistas de Arquitectura
+# Guía Paso a Paso: Integración de Vistas de Arquitectura
 
 Esta guía complementa el `README.md` del taller. A diferencia de los talleres anteriores, aquí no se construye una vista nueva: se **integran** las que ya se hicieron en los Talleres 1 a 6 (negocio, información, aplicaciones, infraestructura y seguridad) en un solo tablero coherente, primero sobre el caso base de FarmApp (Parte 1) y luego sobre el cliente real (Parte 2).
 
@@ -116,12 +116,12 @@ Se verifica que cada elemento del hilo tenga al menos una conexión hacia la cap
 
 | Elemento | Capa | ¿Conectado hacia arriba? | ¿Conectado hacia abajo? |
 |---|---|---|---|
-| Compra Online | Negocio | — (capa más alta) | ✅ E-commerce, App Móvil |
-| Plataforma E-commerce | Aplicaciones | ✅ Compra Online | ✅ Info, Nube Híbrida, Seguridad |
-| App Móvil | Aplicaciones | ✅ Compra Online | ✅ Nube Híbrida |
-| Producto / Cliente / Pedido / Descuento | Información | ✅ E-commerce | — (capa más baja) |
-| Nube Híbrida | Infraestructura | ✅ E-commerce, App Móvil | ✅ Base de Datos Replicada |
-| Cifrado / Monitoreo de fraude | Seguridad | ✅ E-commerce | — |
+| Compra Online | Negocio | — (capa más alta) | E-commerce, App Móvil |
+| Plataforma E-commerce | Aplicaciones | Compra Online | Info, Nube Híbrida, Seguridad |
+| App Móvil | Aplicaciones | Compra Online | Nube Híbrida |
+| Producto / Cliente / Pedido / Descuento | Información | E-commerce | — (capa más baja) |
+| Nube Híbrida | Infraestructura | E-commerce, App Móvil | Base de Datos Replicada |
+| Cifrado / Monitoreo de fraude | Seguridad | E-commerce | — |
 
 Para explorar este mismo tablero de forma interactiva —alternando entre capas sueltas e hilo trazado, con narrativa por conexión— vea [`visualizacion-integracion-vistas.html`](visualizacion-integracion-vistas.html).
 

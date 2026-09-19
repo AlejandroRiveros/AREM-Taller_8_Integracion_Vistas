@@ -232,23 +232,23 @@
           <tr><th class="el">Elemento</th><th style="width:16%">Capa</th><th style="width:20%">¿Conectado en el hilo de Compra Online?</th><th>Estado</th></tr>
         </thead>
         <tbody>
-          <tr><td>Compra Online</td><td>Negocio</td><td class="mark ok">✅ sí</td><td>Conectado — origen del hilo</td></tr>
-          <tr><td>Prescripción</td><td>Negocio</td><td class="mark orphan">❌ no</td><td>Huérfano — su hilo aún no se traza (pendiente, no es un error)</td></tr>
-          <tr><td>Despacho</td><td>Negocio</td><td class="mark orphan">❌ no</td><td>Huérfano — su hilo aún no se traza (pendiente, no es un error)</td></tr>
-          <tr><td>App Móvil</td><td>Aplicaciones</td><td class="mark ok">✅ sí</td><td>Conectado — soporta Compra Online, va a Nube Híbrida</td></tr>
-          <tr><td>Plataforma E-commerce</td><td>Aplicaciones</td><td class="mark ok">✅ sí</td><td>Conectado — soporta Compra Online, hacia información, infraestructura y seguridad</td></tr>
-          <tr><td>Sistema POS</td><td>Aplicaciones</td><td class="mark orphan">❌ no</td><td>Huérfano en este hilo — pertenece al hilo de Despacho en tienda física</td></tr>
-          <tr><td>CRM</td><td>Aplicaciones</td><td class="mark orphan">❌ no</td><td>Huérfano en este hilo — no quedó conectado a Compra Online en la guía</td></tr>
-          <tr><td>Producto</td><td>Información</td><td class="mark ok">✅ sí</td><td>Conectado — accedido por la Plataforma E-commerce</td></tr>
-          <tr><td>Cliente</td><td>Información</td><td class="mark ok">✅ sí</td><td>Conectado — accedido por la Plataforma E-commerce</td></tr>
-          <tr><td>Pedido</td><td>Información</td><td class="mark ok">✅ sí</td><td>Conectado — accedido por la Plataforma E-commerce</td></tr>
-          <tr><td>Descuento</td><td>Información</td><td class="mark ok">✅ sí</td><td>Conectado — accedido por la Plataforma E-commerce</td></tr>
-          <tr><td>Servidores Regionales</td><td>Infraestructura</td><td class="mark orphan">❌ no</td><td>Huérfano en este hilo — Compra Online corre sobre Nube Híbrida, no sobre servidores regionales</td></tr>
-          <tr><td>Nube Híbrida</td><td>Infraestructura</td><td class="mark ok">✅ sí</td><td>Conectado — recibe App Móvil y E-commerce, alimenta la Base de Datos Replicada</td></tr>
-          <tr><td>Base de Datos Replicada</td><td>Infraestructura</td><td class="mark ok">✅ sí</td><td>Conectado — soportado por Nube Híbrida</td></tr>
-          <tr><td>Control de acceso por rol</td><td>Seguridad</td><td class="mark orphan">❌ no</td><td>Huérfano en este hilo — la guía solo enlaza cifrado y monitoreo de fraude a Compra Online</td></tr>
-          <tr><td>Cifrado de datos personales</td><td>Seguridad</td><td class="mark ok">✅ sí</td><td>Conectado — protege el pago electrónico del proceso</td></tr>
-          <tr><td>Monitoreo de fraude</td><td>Seguridad</td><td class="mark ok">✅ sí</td><td>Conectado — protege el pago electrónico del proceso</td></tr>
+          <tr><td>Compra Online</td><td>Negocio</td><td class="mark ok">sí</td><td>Conectado — origen del hilo</td></tr>
+          <tr><td>Prescripción</td><td>Negocio</td><td class="mark orphan">no</td><td>Huérfano — su hilo aún no se traza (pendiente, no es un error)</td></tr>
+          <tr><td>Despacho</td><td>Negocio</td><td class="mark orphan">no</td><td>Huérfano — su hilo aún no se traza (pendiente, no es un error)</td></tr>
+          <tr><td>App Móvil</td><td>Aplicaciones</td><td class="mark ok">sí</td><td>Conectado — soporta Compra Online, va a Nube Híbrida</td></tr>
+          <tr><td>Plataforma E-commerce</td><td>Aplicaciones</td><td class="mark ok">sí</td><td>Conectado — soporta Compra Online, hacia información, infraestructura y seguridad</td></tr>
+          <tr><td>Sistema POS</td><td>Aplicaciones</td><td class="mark orphan">no</td><td>Huérfano en este hilo — pertenece al hilo de Despacho en tienda física</td></tr>
+          <tr><td>CRM</td><td>Aplicaciones</td><td class="mark orphan">no</td><td>Huérfano en este hilo — no quedó conectado a Compra Online en la guía</td></tr>
+          <tr><td>Producto</td><td>Información</td><td class="mark ok">sí</td><td>Conectado — accedido por la Plataforma E-commerce</td></tr>
+          <tr><td>Cliente</td><td>Información</td><td class="mark ok">sí</td><td>Conectado — accedido por la Plataforma E-commerce</td></tr>
+          <tr><td>Pedido</td><td>Información</td><td class="mark ok">sí</td><td>Conectado — accedido por la Plataforma E-commerce</td></tr>
+          <tr><td>Descuento</td><td>Información</td><td class="mark ok">sí</td><td>Conectado — accedido por la Plataforma E-commerce</td></tr>
+          <tr><td>Servidores Regionales</td><td>Infraestructura</td><td class="mark orphan">no</td><td>Huérfano en este hilo — Compra Online corre sobre Nube Híbrida, no sobre servidores regionales</td></tr>
+          <tr><td>Nube Híbrida</td><td>Infraestructura</td><td class="mark ok">sí</td><td>Conectado — recibe App Móvil y E-commerce, alimenta la Base de Datos Replicada</td></tr>
+          <tr><td>Base de Datos Replicada</td><td>Infraestructura</td><td class="mark ok">sí</td><td>Conectado — soportado por Nube Híbrida</td></tr>
+          <tr><td>Control de acceso por rol</td><td>Seguridad</td><td class="mark orphan">no</td><td>Huérfano en este hilo — la guía solo enlaza cifrado y monitoreo de fraude a Compra Online</td></tr>
+          <tr><td>Cifrado de datos personales</td><td>Seguridad</td><td class="mark ok">sí</td><td>Conectado — protege el pago electrónico del proceso</td></tr>
+          <tr><td>Monitoreo de fraude</td><td>Seguridad</td><td class="mark ok">sí</td><td>Conectado — protege el pago electrónico del proceso</td></tr>
         </tbody>
       </table>
       </div>
