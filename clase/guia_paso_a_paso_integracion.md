@@ -1,6 +1,6 @@
 # Guía Paso a Paso: Integración de Vistas de Arquitectura
 
-Esta guía complementa el `README.md` del taller. A diferencia de los talleres anteriores, aquí no se construye una vista nueva: se **integran** las que ya se hicieron en los Talleres 1 a 6 (negocio, información, aplicaciones, infraestructura y seguridad) en un solo tablero coherente, primero sobre el caso base de FarmApp (Parte 1) y luego sobre el cliente real (Parte 2).
+Esta guía complementa el `README.md` del taller. A diferencia de los talleres anteriores, aquí no se construye una vista nueva: se **integran** las que ya se hicieron —el AS-IS de los Talleres 1 a 6 (negocio, información, aplicaciones, infraestructura y seguridad) y, para el cliente real, el TO-BE del Taller 7 (Opportunities & Solutions)— en un solo tablero coherente, primero sobre el caso base de FarmApp (Parte 1) y luego sobre el cliente real (Parte 2).
 
 El diagrama de ejemplo de esta guía está escrito en [Mermaid](https://mermaid.js.org/) y se renderiza automáticamente al ver este archivo en GitHub.
 
@@ -14,9 +14,13 @@ El diagrama de ejemplo de esta guía está escrito en [Mermaid](https://mermaid.
 4. **Redactar la narrativa de coherencia** — explique en texto **por qué** esas conexiones tienen sentido y qué decisiones de talleres anteriores las originaron.
 5. **Revisar consistencia** — verifique que ningún elemento quede "huérfano" (sin conexión hacia arriba ni hacia abajo) y que la narrativa cubra las 5 capas.
 
+Con el cliente real, en el Paso 2 agregue además los elementos TO-BE del Taller 7 a la capa que les corresponde y márquelos con la etiqueta **NUEVO** (la misma convención de la visualización del Taller 7). En el Paso 3 trace también sus conexiones nuevas, marcadas de la misma forma, para que en el tablero se distinga qué es AS-IS y qué es TO-BE.
+
 ---
 
 ## 2. Ejemplo guiado: Tablero integrado de FarmApp
+
+FarmApp es un caso de clase: cuando el ejemplo dice que algo se decidió en el Taller 4 o en el Taller 5, indica de qué taller saldría ese hallazgo en un cliente real.
 
 ### Paso 1 — Organizar las vistas en capas
 
@@ -30,7 +34,7 @@ El diagrama de ejemplo de esta guía está escrito en [Mermaid](https://mermaid.
 
 ### Paso 2 — Ubicar los elementos de cada vista
 
-Se transcribe el inventario completo de cada capa, sin conectar nada todavía. Este es el punto de partida — normalmente ya existe en los entregables de los Talleres 1 a 6.
+Se transcribe el inventario completo de cada capa, sin conectar nada todavía. Este es el punto de partida — normalmente ya existe en los entregables de los Talleres 1 a 6 (AS-IS) y, para el cliente real, en el TO-BE del Taller 7.
 
 ```mermaid
 flowchart TD
@@ -119,9 +123,10 @@ Se verifica que cada elemento del hilo tenga al menos una conexión hacia la cap
 | Compra Online | Negocio | — (capa más alta) | E-commerce, App Móvil |
 | Plataforma E-commerce | Aplicaciones | Compra Online | Info, Nube Híbrida, Seguridad |
 | App Móvil | Aplicaciones | Compra Online | Nube Híbrida |
-| Producto / Cliente / Pedido / Descuento | Información | E-commerce | — (capa más baja) |
+| Producto / Cliente / Pedido / Descuento | Información | E-commerce | — (en este hilo no se trazó su relación con Infraestructura) |
 | Nube Híbrida | Infraestructura | E-commerce, App Móvil | Base de Datos Replicada |
-| Cifrado / Monitoreo de fraude | Seguridad | E-commerce | — |
+| Base de Datos Replicada | Infraestructura | Nube Híbrida | — |
+| Cifrado / Monitoreo de fraude | Seguridad | E-commerce | — (capa más baja) |
 
 Para explorar este mismo tablero de forma interactiva —alternando entre capas sueltas e hilo trazado, con narrativa por conexión— vea [`visualizacion-integracion-vistas.html`](visualizacion-integracion-vistas.html).
 
@@ -134,7 +139,7 @@ Para explorar este mismo tablero de forma interactiva —alternando entre capas 
 | Dibujar las 5 vistas por separado sin conectarlas | El tablero se convierte en 5 diagramas pegados, no en una arquitectura integrada | Trace explícitamente las relaciones verticales entre capas (Paso 3) |
 | Conectar aplicaciones e infraestructura pero omitir la vista de seguridad | La seguridad queda como un anexo en vez de una decisión arquitectónica | Para cada hilo de negocio, identifique qué control de seguridad protege ese flujo |
 | Narrativa que describe el diagrama en vez de justificar las decisiones | No aporta valor sobre lo que ya se ve en el tablero | Explique el "por qué" (ej. por qué esa infraestructura, por qué esas entidades), no el "qué" |
-| Elementos de talleres anteriores que no aparecen en el tablero integrado | Da la impresión de que el trabajo previo se descartó | Revise que cada entregable de los Talleres 1–6 tenga un lugar en el tablero final |
+| Elementos de talleres anteriores que no aparecen en el tablero integrado | Da la impresión de que el trabajo previo se descartó | Revise que cada entregable de los Talleres 1–6 (AS-IS) y, con el cliente real, del TO-BE del Taller 7 tenga un lugar en el tablero final |
 
 ---
 
@@ -145,6 +150,7 @@ Para explorar este mismo tablero de forma interactiva —alternando entre capas 
 - [ ] Ningún elemento relevante queda sin conexión hacia arriba o hacia abajo (ver tabla de verificación del Paso 5).
 - [ ] La narrativa explica el "por qué" de las conexiones clave, no solo las describe.
 - [ ] Los elementos del tablero son consistentes con los entregables de los talleres anteriores (mismos nombres, mismas decisiones).
+- [ ] Los elementos y conexiones TO-BE del Taller 7 están en el tablero y marcados como NUEVO.
 
 ---
 
@@ -177,7 +183,7 @@ flowchart TD
     class nube tecnologia
 ```
 
-Si su equipo construyó el tablero del Taller 7 con la notación ArchiMate en vez de formas libres, este diagrama ya es la vista final que necesita — no hay que redibujar nada dos veces.
+Si su equipo construyó el tablero del Taller 8 con la notación ArchiMate en vez de formas libres, este diagrama ya es la vista final que necesita — no hay que redibujar nada dos veces.
 
 ---
 
