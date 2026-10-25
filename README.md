@@ -1,5 +1,9 @@
 # Taller 8: Integración de Vistas de Arquitectura
 
+> **Entrega — Alejandro Riveros, equipo Adictos al Azúcar.** Cliente: Jefatura de Cultura de Innovación y Servicio (directorio de extensiones).
+> - Parte 1 (FarmApp): [`clase/tablero-farmapp.drawio`](clase/tablero-farmapp.drawio) · [`clase/notas.md`](clase/notas.md)
+> - Parte 2 (cliente real): [`entrega/tablero-integrado-cliente.drawio`](entrega/tablero-integrado-cliente.drawio) · [`entrega/informe.md`](entrega/informe.md) · [`entrega/referencias.md`](entrega/referencias.md)
+
 ## Objetivo
 
 Integrar todas las vistas arquitectónicas desarrolladas a lo largo del curso (negocio, información, aplicaciones, infraestructura y seguridad) en una narrativa visual coherente, identificando cómo se relacionan y soportan los objetivos del cliente. Con el cliente real, la integración debe incluir tanto el estado actual (AS-IS) como la arquitectura objetivo (TO-BE) propuesta en el Taller 7 (Opportunities & Solutions).
