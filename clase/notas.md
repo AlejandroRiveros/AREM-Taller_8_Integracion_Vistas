@@ -196,9 +196,6 @@ Ningún elemento queda sin conexión hacia arriba y hacia abajo (salvo la capa m
 - [x] Nombres consistentes con el README y la guía del taller.
 - [ ] TO-BE marcado como NUEVO: no aplica al caso base; se aplica en la Parte 2 ([tablero del cliente](../entrega/tablero-integrado-cliente.drawio)).
 
-## Retroalimentación del docente
-_Registrar aquí los comentarios recibidos en clase._
-
 ## Boceto inicial del modelo
 
 Ver [`tablero-farmapp.drawio`](tablero-farmapp.drawio) (abrir en [app.diagrams.net](https://app.diagrams.net/)). Imágenes de los hilos: [Compra Online](img/hilo-compra-online.png) · [Prescripción](img/hilo-prescripcion.png) · [Despacho](img/hilo-despacho.png).
