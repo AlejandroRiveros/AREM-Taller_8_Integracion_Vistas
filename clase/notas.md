@@ -1,7 +1,7 @@
 # Registro de Trabajo en Clase - Taller 8
 
 ## Fecha de la sesión
-_Sesión del Taller 8 — Integración de Vistas de Arquitectura (completar con la fecha exacta de la clase)._ Documento consolidado el 25 de octubre de 2026.
+Sábado 24 de octubre de 2026.
 
 ## Integrantes presentes
 - Alejandro Riveros (AlejandroRiveros)
