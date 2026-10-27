@@ -22,7 +22,6 @@ Entregables:
 | [`tablero-integrado-cliente.drawio`](tablero-integrado-cliente.drawio) | Tablero editable, 5 páginas: capas sueltas, tres hilos y tablero integrado |
 | `informe.md` (este documento) | Narrativa, decisiones, verificación de huérfanos y reflexión crítica |
 | [`referencias.md`](referencias.md) | Fuentes del equipo y ejemplos reales de documentación de vistas |
-| [`img/`](img/) | Imágenes de los tres hilos |
 
 ## Proceso de desarrollo
 

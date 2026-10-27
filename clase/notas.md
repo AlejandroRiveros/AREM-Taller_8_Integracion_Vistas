@@ -198,7 +198,7 @@ Ningún elemento queda sin conexión hacia arriba y hacia abajo (salvo la capa m
 
 ## Boceto inicial del modelo
 
-Ver [`tablero-farmapp.drawio`](tablero-farmapp.drawio) (abrir en [app.diagrams.net](https://app.diagrams.net/)). Imágenes de los hilos: [Compra Online](img/hilo-compra-online.png) · [Prescripción](img/hilo-prescripcion.png) · [Despacho](img/hilo-despacho.png).
+Ver [`tablero-farmapp.drawio`](tablero-farmapp.drawio) (abrir en [app.diagrams.net](https://app.diagrams.net/)). Los diagramas de cada hilo están arriba, en la sección de actividades.
 
 ## Tareas definidas para complementar el taller
 
