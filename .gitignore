@@ -1,0 +1,12 @@
+# Archivos temporales de Office
+~$*
+*.tmp
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Respaldos de draw.io
+*.drawio.bkp
+.$*.drawio.bkp
