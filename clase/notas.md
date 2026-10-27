@@ -206,8 +206,8 @@ Ver [`tablero-farmapp.drawio`](tablero-farmapp.drawio) (abrir en [app.diagrams.n
 |----------------|-------------|----------------|
 | Tablero integrado del cliente (draw.io) | Alejandro Riveros | 25/10 |
 | Informe y reflexión crítica | Alejandro Riveros | 25/10 |
-| Revisión del tablero frente a 03-C4 y 04-Infraestructura | Por asignar | Por acordar |
-| Revisión de controles frente a 05-STRIDE y 06-Normatividad | Por asignar | Por acordar |
+| Revisión del tablero frente a 03-C4 y 04-Infraestructura | Equipo | Por acordar |
+| Revisión de controles frente a 05-STRIDE y 06-Normatividad | Equipo | Por acordar |
 | Llevar a 03, 04 y 05 el cambio del Taller 7 (conciliación con Power Automate en vez de Power Query) | Equipo | Por acordar |
 
 ---
