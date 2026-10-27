@@ -11,14 +11,14 @@ _Taller 8 - Integración de Vistas de Arquitectura_
 
 ### Entregables previos del equipo (insumo de la integración)
 
-1. Adictos al Azúcar. *Architecture Vision* (00). 2026. https://github.com/JhonlunKnox/AREM-Equipo3-Universidad-de-la-Sabana/blob/main/00-preliminary-vision/vision.md. Fecha de consulta: 25/10/2026.
-2. Adictos al Azúcar. *Modelado de procesos BPMN* (01). 2026. https://github.com/JhonlunKnox/AREM-Equipo3-Universidad-de-la-Sabana/blob/main/01-bpmn/informe.md. Fecha de consulta: 25/10/2026.
-3. Adictos al Azúcar. *Modelo de información* (02). 2026. https://github.com/JhonlunKnox/AREM-Equipo3-Universidad-de-la-Sabana/blob/main/02-modelo-informacion/informe.md. Fecha de consulta: 25/10/2026.
-4. Adictos al Azúcar. *Arquitectura de aplicaciones C4* y *Esquema de datos TO-BE* (03). 2026. https://github.com/JhonlunKnox/AREM-Equipo3-Universidad-de-la-Sabana/tree/main/03-arquitectura-c4. Fecha de consulta: 25/10/2026.
-5. Adictos al Azúcar. *Arquitectura tecnológica e infraestructura* y *Vista integrada ArchiMate* (04). 2026. https://github.com/JhonlunKnox/AREM-Equipo3-Universidad-de-la-Sabana/tree/main/04-infraestructura. Fecha de consulta: 25/10/2026.
-6. Adictos al Azúcar. *Análisis de seguridad STRIDE* (05). 2026. https://github.com/JhonlunKnox/AREM-Equipo3-Universidad-de-la-Sabana/tree/main/05-seguridad-stride. Fecha de consulta: 25/10/2026.
-7. Adictos al Azúcar. *Cumplimiento legal y normativo* (06). 2026. https://github.com/JhonlunKnox/AREM-Equipo3-Universidad-de-la-Sabana/tree/main/06-normatividad. Fecha de consulta: 25/10/2026.
-7b. Adictos al Azúcar. *Mejora de Arquitectura — Opportunities & Solutions* y *Matriz de brechas y decisiones* (Taller 7). 2026. https://github.com/m4rtin24/AREM-Taller_7_Opportunities_Solutions/tree/main/Entrega. Fecha de consulta: 25/10/2026.
+1. Luna Zuleta, J. P., Riveros, A. y Ortega, M. *Architecture Vision* (00). 2026. https://github.com/JhonlunKnox/AREM-Equipo3-Universidad-de-la-Sabana/blob/main/00-preliminary-vision/vision.md. Fecha de consulta: 25/10/2026.
+2. Luna Zuleta, J. P., Riveros, A. y Ortega, M. *Modelado de procesos BPMN* (01). 2026. https://github.com/JhonlunKnox/AREM-Equipo3-Universidad-de-la-Sabana/blob/main/01-bpmn/informe.md. Fecha de consulta: 25/10/2026.
+3. Luna Zuleta, J. P., Riveros, A. y Ortega, M. *Modelo de información* (02). 2026. https://github.com/JhonlunKnox/AREM-Equipo3-Universidad-de-la-Sabana/blob/main/02-modelo-informacion/informe.md. Fecha de consulta: 25/10/2026.
+4. Luna Zuleta, J. P., Riveros, A. y Ortega, M. *Arquitectura de aplicaciones C4* y *Esquema de datos TO-BE* (03). 2026. https://github.com/JhonlunKnox/AREM-Equipo3-Universidad-de-la-Sabana/tree/main/03-arquitectura-c4. Fecha de consulta: 25/10/2026.
+5. Luna Zuleta, J. P., Riveros, A. y Ortega, M. *Arquitectura tecnológica e infraestructura* y *Vista integrada ArchiMate* (04). 2026. https://github.com/JhonlunKnox/AREM-Equipo3-Universidad-de-la-Sabana/tree/main/04-infraestructura. Fecha de consulta: 25/10/2026.
+6. Luna Zuleta, J. P., Riveros, A. y Ortega, M. *Análisis de seguridad STRIDE* (05). 2026. https://github.com/JhonlunKnox/AREM-Equipo3-Universidad-de-la-Sabana/tree/main/05-seguridad-stride. Fecha de consulta: 25/10/2026.
+7. Luna Zuleta, J. P., Riveros, A. y Ortega, M. *Cumplimiento legal y normativo* (06). 2026. https://github.com/JhonlunKnox/AREM-Equipo3-Universidad-de-la-Sabana/tree/main/06-normatividad. Fecha de consulta: 25/10/2026.
+7b. Luna Zuleta, J. P., Riveros, A. y Ortega, M. *Mejora de Arquitectura — Opportunities & Solutions* y *Matriz de brechas y decisiones* (Taller 7). 2026. https://github.com/m4rtin24/AREM-Taller_7_Opportunities_Solutions/tree/main/Entrega. Fecha de consulta: 25/10/2026.
 8. Vega, César A. *Guía paso a paso: Integración de vistas de arquitectura* (Taller 8). Universidad de La Sabana, 2026. [clase/guia_paso_a_paso_integracion.md](../clase/guia_paso_a_paso_integracion.md)
 
 ### Estándares y marcos de documentación de vistas

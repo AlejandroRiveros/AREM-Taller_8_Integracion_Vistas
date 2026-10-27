@@ -4,7 +4,6 @@
 _Taller 8 - Integración de Vistas de Arquitectura_
 
 ## Integrantes del equipo
-Equipo **Adictos al Azúcar**
 - Juan Pablo Luna Zuleta (JhonlunKnox)
 - Alejandro Riveros (AlejandroRiveros)
 - Martín Ortega (m4rtin24)

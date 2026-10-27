@@ -1,6 +1,6 @@
 # Taller 8: Integración de Vistas de Arquitectura
 
-> **Entrega — Alejandro Riveros, equipo Adictos al Azúcar.** Cliente: Jefatura de Cultura de Innovación y Servicio (directorio de extensiones).
+> **Entrega — Alejandro Riveros.** Cliente: Jefatura de Cultura de Innovación y Servicio (directorio de extensiones).
 > - Parte 1 (FarmApp): [`clase/tablero-farmapp.drawio`](clase/tablero-farmapp.drawio) · [`clase/notas.md`](clase/notas.md)
 > - Parte 2 (cliente real): [`entrega/tablero-integrado-cliente.drawio`](entrega/tablero-integrado-cliente.drawio) · [`entrega/informe.md`](entrega/informe.md) · [`entrega/referencias.md`](entrega/referencias.md)
 
